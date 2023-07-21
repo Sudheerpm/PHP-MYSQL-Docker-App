@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: php-apache
-        image: learningk8s_website
+        image: ausnettestacr .azurecr.io/v1phpmysqldockerappwebsite:v1
         imagePullPolicy: Never
         ports:
         - containerPort: 80

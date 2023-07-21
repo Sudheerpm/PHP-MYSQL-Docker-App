@@ -14,7 +14,7 @@ spec:
         app: mysql8
     spec:
       containers:
-      - image: mysql:8.0
+      - image: ausnettestacr .azurecr.io/mysql:v1
         name: mysql
         imagePullPolicy: Never
         env:
