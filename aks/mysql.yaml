@@ -16,7 +16,7 @@ spec:
       containers:
       - image: ausnettestacr.azurecr.io/mysql:v1
         name: mysql
-        imagePullPolicy: Never
+        imagePullPolicy: IfNotPresent
         env:
         - name: MYSQL_ROOT_PASSWORD
           value: .sweetpwd.
